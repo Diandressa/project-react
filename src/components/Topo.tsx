@@ -4,7 +4,7 @@ export default function Topo(){
     return(
         <div className="flex flex-col bg-indigo-500 justify-center items-center py-3">
             <span className="italic">
-                foldeR_code
+                Portfólio
             </span>
             <div className="text-xl">
                 {'{{ Linguagens }}'}
