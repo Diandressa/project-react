@@ -11,7 +11,7 @@ export default function Card(props:CardProps){
             <div className="font-bold">Linguagem</div>
             <div className="font-bold">{props.tipo}:</div>
             <div>{props.linguagem}</div>
-            <small className="bg-amber-50 text-black text-center rounded">{props.nivel}</small>
+            <small className={`${props.nivel == "Básico" ? 'bg-cyan-500' : ' bg-amber-200'} text-black text-center rounded`}>{props.nivel}</small>
         </div>
     )
 }
